@@ -1,0 +1,118 @@
+/* Level1_5
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    background: linear-gradient(-90deg, #f6ad7b,
+            #be7575);
+}
+
+section {
+    margin: 100px auto;
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid #c2e8ce;
+    color: #c2e8ce;
+} */
+
+/* Level1_6 */
+
+/* body {
+    font-family: sans-serif;
+}
+
+select {
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 2rem;
+    outline: 0;
+} */
+
+/* Level2_1 */
+
+/* body {
+    margin: 3em;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    line-height: 1.25;
+    margin: 1em 0 0;
+}
+
+p {
+    margin: .5em 0;
+}
+
+#umschalter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#umschalter li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 18px;
+    border: 3px solid black;
+}
+
+#grauTaste {
+    background: gray;
+}
+
+#weissTaste {
+    background: white;
+}
+
+#blauTaste {
+    background: blue;
+}
+
+#gelbTaste {
+    background: yellow;
+} */
+
+/* Level2_2 */
+section {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+section>article {
+    width: 100vw;
+    font-size: 4rem;
+}
+
+section>div {
+    display: inline-block;
+    width: 30vw;
+    height: 10vh;
+    margin: 0 1vw;
+}
+
+section>div>h4 {
+    background-color: lightblue;
+}
+
+section>div>h4,
+section>div>p {
+    font-size: 2.5rem;
+}

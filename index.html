@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- <section>
+        <h3>Klickzähler </h3><button id="clickMe">Click me: 0</button>
+        <h5>Gute Praxis: kein JavaScript-Code im HTML</h5>
+    </section>
+
+
+    <select id="my-select">
+        <option value="" disabled selected>Select One</option>
+        <option value="select1">Select 1</option>
+        <option value="select2">Select 2</option>
+        <option value="select3">Select 3</option>
+        <option value="select4">Select 4</option>
+        <option value="select5">Select 5</option>
+    </select>
+    <p id="option-selected"></p>
+
+
+    <ul id="umschalter">
+        <li id="grauTaste"></li>
+        <li id="weissTaste"></li>
+        <li id="blauTaste"></li>
+        <li id="gelbTaste"></li>
+    </ul>
+
+
+    <h1>Farbschema Umschalter</h1>
+
+    <p>Versuche auf eine der obigen Farben zu klicken, um die Farben auf dieser Seite zu ändern! </p> -->
+
+    <!-- <section>
+        <article>
+            <h1 id="tastenNum">Drücke eine Taste auf der Tastatur</h1>
+        </article>
+        <div>
+            <h4>Key</h4>
+            <p id="key"></p>
+        </div>
+        <div>
+            <h4>KeyCode</h4>
+            <p id="keyCode"></p>
+        </div>
+        <div>
+            <h4>Code</h4>
+            <p id="code"></p>
+        </div>
+    </section> -->
+
+    <h1>Meine dynamische Webseite</h1>
+    <p id="demo">Wähle eine Farbe:</p>
+    <p>
+        <button onclick="changeBackground('pink')">Rosa</button>
+        <button onclick="changeBackground('purple')">Lila</button>
+        <button onclick="changeBackground('orange')">Orange</button>
+    </p>
+    <p>
+        <input type="range" id="rot" value="255" min="0" max="255" onchange="changeHandle()" style="background:red">
+        Rot<br>
+        <input type="range" id="grun" value="255" min="0" max="255" onchange="changeHandle()" style="background:green">
+        Grün<br>
+        <input type="range" id="blau" value="255" min="0" max="255" onchange="changeHandle()" style="background:blue">
+        Blau
+    </p>
+
+
+    <script src="assets/js/style.js"></script>
+</body>
+
+</html>
